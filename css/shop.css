@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* <---------card container zone start-----> */
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(243, 239, 238,0.9); 
+}
+
+ .tranding {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.40), 
+        rgba(0, 0, 0, 0.40)
+      ),url(/Images/Content_Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    color: #ffffff;
+ }
+
+ .txt {
+    margin-top: 90px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 23px;
+ }
+
+ .txt p{
+    margin-left:40px;
+ }
+
+ i {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 34px;
+    font-size: 25px;
+ }
+  /* cartegory  */
+ .shop-cat {
+    height: 50px;
+    margin-left: 140px;
+    padding-top: 12px;
+    font-size: 25px;
+    display: flex;
+ }
+.search{
+    margin-left: 840px;
+    width: 350px;
+    position: absolute;
+    /* display: inline-block; */
+    /* background-color: red; */
+}
+
+.search button{
+    position: absolute;
+    margin-left: 10px;
+    height: 25px;
+    margin-top: 5px;
+    width: 70px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #4D4DFE;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.category{
+    position: absolute;
+}
+
+.search input{
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+
+ /* category  */
+
+.card-container {
+    display:grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto auto;     
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: none ;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    box-shadow: 5px 15px 15px rgba(0,0, 0, 0.3);
+    transition: 0.3s;
+    border: solid 1px;
+}
+
+.card i:hover{
+    cursor: pointer;
+}
+
+
+img {
+    width:198px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card>div>button {
+    width: 100px;
+    height: 30px;
+   margin-top: 30px; 
+   margin-left: 90px;
+   border: solid 1px ;
+   padding: 4px;
+   border-radius: 20px;
+   background-color: #4D4DFE;
+   color: #F6F6F6;
+   cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* <---------card container zone end ---------> */
+
+.next-page {
+   padding-left: 570px;
+   padding-top: 20px;
+   height: 80px;
+}
+
+.nxt-btn {
+    margin-left: 8px;
+    width: 35px;
+}
+
+/* searchbar */
+

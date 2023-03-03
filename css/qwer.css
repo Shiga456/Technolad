@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 40px;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-right:20px;
+}
+
+.Logoname{
+    text-decoration: none;
+    padding-bottom: 10px;
+    /* font-size: 2.5em; */
+    color: #fff;
+    font-weight:900;
+    padding-bottom: 10px;
+    font: italic bold 47px Georgia, Serif;
+    text-shadow: -1px 0px 0 #3a50d9, -8px 1px 0 #0a0e27;
+}
+
+.navbar ul{
+    float: right;
+    margin-top: -40px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    /* padding-top: -0px; */
+    /* margin-top: -20px; */
+    margin-right: 70px; 
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#fff;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover{
+    letter-spacing: 3px;
+    color: inherit;
+    transition-duration: .5s;
+    color:#fff;
+}
+
+.navbar{
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #679df5;
+    /* background-color: #B0CCFA; */
+}
+
+.shop_now{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    background-color: #4D4DFE;
+    color: #fff;
+}
+
+.background_text{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 550px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    animation: moveright 1s linear 1;
+    animation-delay: 0s;
+    visibility: hidden;
+    animation-fill-mode: forwards; 
+}
+@keyframes moveright{
+    0%{
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform:translateX(0);
+        visibility: visible;
+    }
+}
+
+.wc{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.shop_now{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+/* service */
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 30px;
+}
+
+.service div p{
+    display: inline-block;
+    margin-left: 30px;
+}

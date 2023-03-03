@@ -1,0 +1,105 @@
+*{
+    font-family: 'Public Sans', sans-serif;
+}
+
+body{
+}
+
+.signup{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    margin-top: 50px;
+    /* background-color:#4dfec6; */
+    /* background-color: #22A3B6; */
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 8px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 5px 8px 6px rgba(0,0,0,0.75);
+}
+
+h1{
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.divided{
+    width: 100px;
+    /* margin: auto; */
+    margin-top: -20px;
+    border: 1px solid white;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.button{
+    /* margin-left:  10px; */
+    width: 315px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #4D4DFE;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.login_text{
+    margin-top: -5px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    /* border: solid 1px red; */
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+
+

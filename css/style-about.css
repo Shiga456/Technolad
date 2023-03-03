@@ -1,0 +1,263 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-left:25px ;
+    padding-right: 25px;
+}
+ 
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col-1{
+    width: 50%;
+    padding: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.col-2 {
+    max-width: 700%;
+    padding: 50px 0;
+}
+
+.col-1 h1{
+    font-size: 60px;
+    line-height: 40px;
+    margin: 25px 0;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+/* .bottom{
+    text-align: right;
+     background: #4D4DFE;
+    color: #fff;
+    padding: 10px 20px ;
+    padding-top: 20px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    text-decoration: none;
+}
+.bottom:hover{
+    background: #420c03;
+} */
+
+.read{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#rmbtn{
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #4D4DFE;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.btn{
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.header{
+    /* background: radial-gradient(#fff,#fefeff); */
+    background-color: #EEEEF0;
+}
+
+#aboutustx {
+   margin-bottom: 15px;
+}
+
+.room{
+    display: flex;
+    width: 100%;
+    align-items: center; 
+}
+#sheet {
+    /* background:linear-gradient(#ffffff,#ffd6d6); */
+    background:linear-gradient(#ffffff,#679DF5);
+
+    width: 50%;
+    height: 650px;
+    margin: 25px;
+    border-radius: 35px;
+    box-shadow:1px 5px 8px 8px rgba(0,0, 0, 0.3);
+}
+#sheet:hover{
+    /* background:radial-gradient(#ffffff,#e8b1b1); */
+    background:radial-gradient(#ffffff,#679DF5);
+    transform: translateY(-10px);
+    transition: 0.5s;   
+    box-shadow: 5px 8px 8px rgba(0,0, 0, 0.3);
+}
+
+.text-div {
+    line-height: 30px;
+}
+
+
+
+.room p{
+    margin-bottom: 10%;
+    width: 90%;
+    margin-right:auto ;
+    margin-left: auto;
+    text-align: left;
+    padding-left: 15px;
+    /* background-color: #c3b9b9; */
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+}
+h3{
+    /* padding: 20px; */
+    padding-left: 50px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.room img{
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.col-1 img{
+    width: 180px;
+    margin-bottom: 30px;
+}
+#suggestions{
+   display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 5px;   
+    padding-right: 5px;
+    cursor: pointer;  
+}
+#suggestions a{
+    text-decoration: none;
+    color: rgb(38, 3, 3);
+}
+  
+#suggestions>#report{
+    width: 50%;  
+    background-color: #fffeff;
+    padding: 10px 15px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#suggestions>#sugg{ 
+    width: 50%;  
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#suggestions>#report:hover{
+    color: #420c03;
+    box-shadow: 5px 8px 8px rgba(0,0, 0, 0.3);
+}
+#suggestions>#sugg:hover{
+    color: #420c03;
+    box-shadow: 5px 8px 8px rgba(0,0, 0, 0.3);
+}
+
+.col-1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.read i{
+    font-size: 35px;
+    height: 0px;
+    color: #420c03;
+    background-color: #d5b8f7;
+}
+.read{
+    align-items: center;
+    margin-top: 20px;
+
+}
+.warranty{
+    display: flex;
+    /* margin-left: -20px; */
+    /* margin-top: 20px; */
+}
+.warn-tex{
+    /* margin-top: 40px; */
+    margin-top: 20px;
+}
+
+.war-text{
+    margin-top: -15px;
+}
+
+.outchay{
+    padding-left:0px ;
+    padding-top:20px ;
+    font-weight: bold;
+}
+#starrating{
+    color: #420c03;
+    font-size: 30px;
+    padding-top:20px ;
+}
+
+#starrating i:hover{
+    cursor: pointer;
+}
+
+/* copyright */
+/* .aboutus{
+    list-style: none;
+    margin-left: 215px;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 30px;
+} */
+
+.name{
+    margin-left: 210px;
+}
+
+.name p{
+    display: inline-block;
+    font-weight: 550;
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+
+
+
+
+

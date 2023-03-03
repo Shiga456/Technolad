@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Sans Canadian Aboriginal
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/canadian-aboriginal)
+- Font Source: http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigWLn_yAsg0q0uhQ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
